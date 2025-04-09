@@ -33,18 +33,20 @@ Para executar os notebooks:
 1. Clonar o repositório:
    ```
    git clone <url-do-repositorio>
+   cd <nome-da-pasta-do-repositorio>
    ```
 
-2. Ativar o ambiente virtual:
+2. Criar e ativar o ambiente virtual:
    ```
-   .venv/Scripts/activate
+   python -m venv .venv
+   .venv\Scripts\activate
    ```
 
 3. Instalar as dependências:
    ```
    pip install -r requirements.txt
    ```
-
+   
 ---
 
 ## Notebooks
